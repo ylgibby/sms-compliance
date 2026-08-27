@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SMS Opt-In — Chris Gibbons</title>
+  <title>GibBot SMS Opt-In</title>
   <style>
     body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #111; }
     h1 { font-size: 1.4rem; }
@@ -22,8 +22,8 @@
     <a href="./privacy.html">Privacy Policy</a>
     <a href="./terms.html">Terms</a>
   </nav>
-  <h1>SMS notifications from Chris Gibbons</h1>
-  <p>This is a personal hobby project. Messages may include project alerts, test notifications, and related notices. This is not a marketing program.</p>
+  <h1>GibBot SMS notifications</h1>
+  <p>GibBot is a personal hobby project operated by Chris Gibbons. Messages may include project alerts, test notifications, and related notices. This is not a marketing program.</p>
   <p class="note">Message frequency varies, typically a few messages per week. Message and data rates may apply. Reply STOP to cancel. Reply HELP for help.</p>
   <form id="optin">
     <label>Mobile number
@@ -31,12 +31,12 @@
     </label>
     <label class="consent">
       <input type="checkbox" name="consent" required>
-      <span>I agree to receive SMS notifications from Chris Gibbons about this personal project. Message frequency varies. Message and data rates may apply. Reply STOP to cancel, HELP for help. Consent is optional and is not required to use any other service. Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes.</span>
+      <span>I agree to receive SMS notifications from GibBot (Chris Gibbons) about this personal project. Message frequency varies. Message and data rates may apply. Reply STOP to cancel, HELP for help. Consent is optional and is not required to use any other service. Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes.</span>
     </label>
     <button type="submit">Opt in</button>
   </form>
-  <p id="thanks" hidden>Thanks. Your opt-in request was recorded for this project. You can reply STOP on any message to cancel.</p>
-  <p class="note">Also available: text START to the project Twilio number after it is provisioned. Privacy Policy: <a href="./privacy.html">privacy.html</a>. Terms: <a href="./terms.html">terms.html</a>.</p>
+  <p id="thanks" hidden>Thanks. Your GibBot opt-in request was recorded. You can reply STOP on any message to cancel.</p>
+  <p class="note">Also available: text START to the GibBot Twilio number after it is provisioned. Privacy Policy: <a href="./privacy.html">privacy.html</a>. Terms: <a href="./terms.html">terms.html</a>.</p>
   <script>
     document.getElementById('optin').addEventListener('submit', function (e) {
       e.preventDefault();
