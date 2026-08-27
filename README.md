@@ -1,6 +1,6 @@
-# GibBot SMS compliance pages
+# Chris GibBot SMS compliance pages
 
-Public A2P 10DLC pages for the GibBot personal hobbyist SMS program operated by Chris Gibbons.
+Public A2P 10DLC pages for the Chris GibBot personal hobbyist SMS program.
 
 After GitHub Pages is enabled (Settings → Pages → Deploy from branch `main` / root):
 
